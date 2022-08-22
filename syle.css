@@ -1,0 +1,331 @@
+body{
+
+height: 1700px;
+}
+header{
+    background-color: #f1f1f1;
+display: flex;
+justify-content: space-between;
+}
+header a{
+
+    color: black;
+    text-decoration: none;
+    font-size: 1.5em;
+    margin: 10px;
+    display: inline-block;
+}
+#logo{
+
+    margin-left: 30px;
+}
+
+header a span{
+
+    font-size: 1.6em;
+    color: red;
+    font-weight: bold;
+}
+.one{    
+background-color: #f1f1f1;
+height: 600px;
+text-align: center;
+}
+.one h1{
+margin-top: 40px;
+font-size: 4.7em;
+
+}
+.one h1 span{
+    position: relative;
+color: red;
+z-index: 10000000;
+font-weight: bold;
+font-size: 1.2em;
+}
+.one h4{
+
+
+    font-size: 1em;
+}
+.one img{
+width: 11%;
+z-index: 1;
+
+}
+#imga{
+    z-index: 1;
+    transform: rotate(20deg);
+position: relative;
+top: -230px;
+right: 140px;
+}
+#imgb{
+    z-index: 1;
+    transform: rotate(20deg);
+    position: relative;
+    top: -230px;
+left: 220px;
+}
+/* From uiverse.io */
+button {
+    position: relative;
+    right: 14%;
+    border: none;
+    background: transparent;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+    transition: filter 250ms;
+    user-select: none;
+    touch-action: manipulation;
+   }
+   
+   .shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background: hsl(0deg 0% 0% / 0.25);
+    will-change: transform;
+    transform: translateY(2px);
+    transition: transform
+       600ms
+       cubic-bezier(.3, .7, .4, 1);
+   }
+   
+   .edge {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background: linear-gradient(
+       to left,
+       hsl(340deg 100% 16%) 0%,
+       hsl(340deg 100% 32%) 8%,
+       hsl(340deg 100% 32%) 92%,
+       hsl(340deg 100% 16%) 100%
+     );
+   }
+   
+   .front {
+    display: block;
+    position: relative;
+    padding: 12px 27px;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    color: white;
+    background: hsl(345deg 100% 47%);
+    will-change: transform;
+    transform: translateY(-4px);
+    transition: transform
+       600ms
+       cubic-bezier(.3, .7, .4, 1);
+   }
+   
+   button:hover {
+    filter: brightness(110%);
+   }
+   
+   button:hover .front {
+    transform: translateY(-6px);
+    transition: transform
+       250ms
+       cubic-bezier(.3, .7, .4, 1.5);
+   }
+   
+   button:active .front {
+    transform: translateY(-2px);
+    transition: transform 34ms;
+   }
+   
+   button:hover .shadow {
+    transform: translateY(4px);
+    transition: transform
+       250ms
+       cubic-bezier(.3, .7, .4, 1.5);
+   }
+   
+   button:active .shadow {
+    transform: translateY(1px);
+    transition: transform 34ms;
+   }
+   
+   button:focus:not(:focus-visible) {
+    outline: none;
+   }
+   .carda{
+    background-color: #f1f1f1;
+    padding-bottom: 40px;
+   }
+.card{
+margin-left: 270px;
+background-image: url(Culinary_fruits_front_view.jpg);
+    align-items: center;
+}
+.card-title{
+color: white;
+    font-size: 3em;
+    
+    padding: 10px;
+}
+.card-text{
+    margin-top: 40px;
+    font-size: 1.5em;
+color: white;
+
+}
+.btna{
+    text-decoration: none;
+ font-size: 1.5em;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 40px;
+    position: relative;
+    top: 40px;
+}
+.btna:hover{
+    color: rgb(0, 0, 0);
+    background-color:rgb(255, 255, 255);
+    border-radius:10px ;
+}
+.all{
+
+    text-align: center;
+    background-color: #f1f1f1;
+   padding-bottom: 60px;
+}
+.all h1{
+    font-size: 70px;
+    border-bottom: solid 3px black;
+    padding: 10px 0px;
+    }
+    .all #all{
+        border-bottom: solid 3px black;
+     width: 20%;
+     margin-left: 40%;
+    }
+footer{
+text-align: center;
+    background-color: black;
+    color: white;
+    height: 390px;
+    
+}
+footer h1{
+font-size: 3.2em;
+border-bottom:solid 3px white;
+width: 20%;
+margin-left: 40%;
+}
+.foot a{
+    color: white;
+    margin: 300px 10px;
+    position: relative;
+    top: 40px;
+}
+.foot a:hover{
+    color: red;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+background-color: black;
+    color: black;
+}
+@media (max-width:600px) {
+    #logoa{
+
+display: none;
+    }
+    #logob{
+
+        display: none;
+    }
+    #logoc{
+
+        display: none;
+    }
+    #logo{
+        position: relative;
+        top: -10px;
+    }
+    .one h4{
+        position: relative;
+        top: 10px;
+    }
+    .one h1{
+        font-size: 2.6em;
+        margin-top: 70px;
+    }
+    #imga{
+width: 25%;
+        position: absolute;
+        top:230px ;
+        right: 40vmax;
+    }
+    #imgb{
+        width: 23%;
+        position: absolute;
+        top: 198px;
+        left: 228px;
+    }
+    #spana{
+        color: black;
+        font-size: 41px;
+        }
+    .all h1{
+
+        font-size: 32px;
+    }
+    .all #all{
+        width: 29%;
+    }
+footer h1{
+    font-size: 30px;
+    width: 50%;
+    margin-left: 27%;
+}
+button {
+    position: relative;
+    right: -2%;
+    top: 20px;
+}
+.card{
+  padding:0 70px;
+  margin-left: 0px;
+  width: 40%;
+  padding: 40px;
+}
+.card-title{
+    font-size: 30px;
+}
+.card-text{
+    margin-top: 51px;
+    padding-right: 451px;
+    font-size: 17px;
+}
+.btna {
+    text-decoration: none;
+    font-size: 22px;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 40px;
+    position: relative;
+    top: 19px
+}
+.one{
+    height: 376px;
+}
+.carda {
+    background-color: #f1f1f1;
+    padding-bottom:0px;
+}
+body {
+    height: 1376px;
+}
+    }
